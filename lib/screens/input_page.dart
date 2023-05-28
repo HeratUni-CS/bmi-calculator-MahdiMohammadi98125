@@ -1,12 +1,15 @@
+// ignore_for_file: duplicate_import
+
 import 'package:bmi_starting/calculator_brain.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import '../components/buttom_button.dart';
 import '../components/icon_content.dart';
 import '../components/reusable_card.dart';
 import '../constants.dart';
-import 'results_page.dart';
+import 'result_page.dart';
 import '../components/round_icon_button.dart';
-import '../components/bottom_button.dart';
+import '../screens/result_page.dart';
 
 enum Gender {
   male,
